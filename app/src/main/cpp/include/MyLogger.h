@@ -26,10 +26,10 @@
             __FILENAME__, __LINE__, __FUNCTION__, ##__VA_ARGS__); \
 } while (0)
 
-#define LOGV(fmt, ...) LOG_IMPL_(2, KNRM, fmt, ##__VA_ARGS__)
-#define LOGD(fmt, ...) LOG_IMPL_(3, KBLU, fmt, ##__VA_ARGS__)
-#define LOGI(fmt, ...) LOG_IMPL_(4, KGRN, fmt, ##__VA_ARGS__)
-#define LOGW(fmt, ...) LOG_IMPL_(5, KYEL, fmt, ##__VA_ARGS__)
-#define LOGE(fmt, ...) LOG_IMPL_(6, KRED, fmt, ##__VA_ARGS__)
+#define LOG_V(fmt, ...) LOG_IMPL_(2, KNRM, fmt, ##__VA_ARGS__)
+#define LOG_D(fmt, ...) LOG_IMPL_(3, KBLU, fmt, ##__VA_ARGS__)
+#define LOG_I(fmt, ...) LOG_IMPL_(4, KGRN, fmt, ##__VA_ARGS__)
+#define LOG_W(fmt, ...) LOG_IMPL_(5, KYEL, fmt, ##__VA_ARGS__)
+#define LOG_E(fmt, ...) LOG_IMPL_(6, KRED, fmt, ##__VA_ARGS__)
 
 #endif //OPENGL_STUDY_MYLOGGER_H
