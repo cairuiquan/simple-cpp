@@ -5,18 +5,18 @@
 
 cmake_minimum_required(VERSION 3.4.1)
 
-set(GLOBAL_CXX_FLAGS " \
-    -std=c++11 \
-    -fPIC \
-    -Wall \
-    -Wno-unused \
-    -Wno-unused-parameter \
-    -Wno-sign-compare \
-    -fcolor-diagnostics \
-    -Wno-unused-command-line-argument \
-    ")
+#set(GLOBAL_CXX_FLAGS " \
+#    -std=c++11 \
+#    -fPIC \
+#    -Wall \
+#    -Wno-unused \
+#    -Wno-unused-parameter \
+#    -Wno-sign-compare \
+#    -fcolor-diagnostics \
+#    -Wno-unused-command-line-argument \
+#    ")
 
-set(CMAKE_CXX_FLAGS ${GLOBAL_CXX_FLAGS})
+#set(CMAKE_CXX_FLAGS ${GLOBAL_CXX_FLAGS})
 
 # Creates and names a library, sets it as either STATIC
 # or SHARED, and provides the relative paths to its source code.
